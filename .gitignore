@@ -1,0 +1,8 @@
+*.bak
+*.bck
+*.raw
+*.log
+*.dcm
+*_kicad_pcb-bak
+*autosave*
+*cache*
