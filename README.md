@@ -13,6 +13,7 @@ This is the official repository of WVSNP Project. All code, SW and Hardware cont
 subject to NDA and agreements you have with the WVSNP Project and ASU.
 
 Quick Start Guide:
+NOTE- The following work was done on Ubuntu version 14. Everything should be viewable on Windows or Mac however the 3D viewer will not properly work becasue of the different directory structures. They will have to be manually changed in KiCAD. 
 
 1- Download version 3.0.2 of Kicad at http://kicad-pcb.org/download/
 Other versions do not work properly with the 3D viewer.
@@ -30,7 +31,7 @@ Other versions do not work properly with the 3D viewer.
 
 
 3D - To view the board in 3D drag the contents of the folder "add_these_to_packages3d" into the "/usr/share/kicad/modules/packages3d" folder.
-     This manually require root privileges. Then click View -> 3D viewer. If it is still not working you may need to change the permission on the new files because kiCAD seems picky on them. 
+     This may require root privileges. Then click View -> 3D viewer. If it is still not working you may need to change the permission on the new files because kiCAD seems picky on them. 
 
    
 4- Making Changes to schematic - Double click on "Board-To-Board.sch" inside the "schematics" folder. 
