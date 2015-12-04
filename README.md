@@ -18,7 +18,7 @@ Quick Start Guide:
 Other versions do not work properly with the 3D viewer.
 
 2- Get a copy of the repository: - Using Command Prompt (Git Bash) git clone 
-   https://github.com/adcmo/wvsnp_board/wvsnp_board.git
+   https://github.com/adcmo/wvsnp_board.git
    - Using the GitHub page While logged in to GitHub, there are URLs available 
     in the sidebar: HTTPS clone URL - Using GitHub's GUI to clone repo.
 
@@ -27,6 +27,11 @@ Other versions do not work properly with the 3D viewer.
 
    This will open the entire project with all the files necessary to see and 
    edit the schematic and PCB layout. 
+
+
+3D - To view the board in 3D drag the contents of the folder "add_these_to_packages3d" into the "/usr/share/kicad/modules/packages3d" folder.
+     This manually require root privileges. Then click View -> 3D viewer. If it is still not working you may need to change the permission on the new files because kiCAD seems picky on them. 
+
    
 4- Making Changes to schematic - Double click on "Board-To-Board.sch" inside the "schematics" folder. 
    This will open the schematic - Make any necessary changes (add/removing 
@@ -53,7 +58,7 @@ Other versions do not work properly with the 3D viewer.
      generate your Gerbers. If you are unsure on what you'd like to add on the Gerbers, 
      look up toturials for generating Gerber files in Kicad. 
      
-   - To view the board in 3D drag the contents of the folder "add_these_to_packages3d" into the "/usr/share/kicad/modules/packages3d" folder. This may require root privileges. Then click View -> 3D viewer. 
+   
    
 BOM
 
