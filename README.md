@@ -13,7 +13,8 @@ This is the official repository of WVSNP Project. All code, SW and Hardware cont
 subject to NDA and agreements you have with the WVSNP Project and ASU.
 
 Quick Start Guide:
-NOTE- The following work was done on Ubuntu version 14. Everything should be viewable on Windows or Mac however the 3D viewer will not properly work becasue of the different directory structures. They will have to be manually changed in KiCAD. 
+
+NOTE- The following work was done on Ubuntu version 14. Everything should be viewable on Windows or Mac however the 3D viewer will not properly work because of the different directory structures. They will have to be manually changed in KiCAD. 
 
 1- Download version 3.0.2 of Kicad at http://kicad-pcb.org/download/
 Other versions do not work properly with the 3D viewer.
